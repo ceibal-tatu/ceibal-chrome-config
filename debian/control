@@ -1,0 +1,14 @@
+Source: ceibal-chrome-config
+Section: admin
+Priority: optional
+Maintainer: Plan Ceibal <ceibal@plan.ceibal.edu.uy>
+Build-Depends: debhelper (>= 9.0.0)
+Standards-Version: 3.9.5
+Vcs-Git: git://github.com/ceibal-tatu/ceibal-chrome-config.git
+Vcs-Browser: https://github.com/ceibal-tatu/ceibal-chrome-config/
+
+Package: ceibal-chrome-config
+Architecture: all
+Depends: ${misc:Depends}, tatu-repo-update (>= 0.11), software-properties-common
+Description: Configuración del repositorio de Google Chrome.
+ Configura el repositorio de Google Chrome para debian.

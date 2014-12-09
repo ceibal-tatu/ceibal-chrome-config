@@ -1,0 +1,9 @@
+#!/bin/sh
+
+logger "Actualizando Google Chrome."
+
+apt-get install -y google-chrome-stable
+if [ $? -ne 0 ]; then
+    logger "Error ejecutando apt-get install google-chrome-stable."
+    exit 2
+fi
