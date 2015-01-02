@@ -1,3 +1,11 @@
+ceibal-chrome-config (0.2) UNRELEASED; urgency=medium
+
+  * Instalar un archivo de repositorio. Las version de la positivo de
+    apt-add-repository agrega un src repo por defecto que causa 
+    conflicto.
+
+ -- Plan Ceibal <ceibal@plan.ceibal.edu.uy>  Fri, 02 Jan 2015 11:13:00 -0200
+
 ceibal-chrome-config (0.1) tatu; urgency=low
 
   * Primera versión.
