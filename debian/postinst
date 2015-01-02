@@ -56,13 +56,8 @@ KEYDATA
   fi
 }
 
-install_repo() {
-    apt-add-repository "deb http://dl.google.com/linux/chrome/deb/ stable main"
-}
-
 case "$1" in
     configure)
-    install_repo
     install_key    
     ;;
 
